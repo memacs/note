@@ -128,5 +128,6 @@ sudo emqx remote_consle
 > etop:start([{output,text},{lines,10},{sort,reductions},{accumulations,true},{interval,10}]).
  
 sudo emqx_ctl listeners
-```
+
 sudo emqx_ctl listeners stop mqtt:ssl 8883
+```
