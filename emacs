@@ -1,4 +1,4 @@
-sudo yum install gcc make ncurses-devel giflib-devel libjpeg-devel libtiff-devel
+sudo yum install gcc make ncurses-devel giflib-devel libjpeg-devel libtiff-devel gnutls-devel
 wget wget http://ftp.gnu.org/gnu/emacs/emacs-26.1.tar.gz
 tar -xzvf emacs* && cd emacs*
 ./configure  --without-selinux
